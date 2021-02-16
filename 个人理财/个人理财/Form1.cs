@@ -72,9 +72,9 @@ namespace 个人理财
                 if (Convert.ToInt32(com.ExecuteScalar()) > 0)
                 {
                     MessageBox.Show("欢迎加入个人理财系!", "登录成功", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-                   // homepage home = new homepage();
+                    zhuti home = new zhuti();
                     this.Hide();
-                 //   home.Show();
+                    home.Show();
                 }
                 else
                 {
