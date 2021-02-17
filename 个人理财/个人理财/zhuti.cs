@@ -20,7 +20,7 @@ namespace 个人理财
 
         private void zhuti_Load(object sender, EventArgs e)
         {
-
+            this.IsMdiContainer = true;
         }
     }
 }
