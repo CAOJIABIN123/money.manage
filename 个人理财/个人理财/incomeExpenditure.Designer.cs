@@ -40,32 +40,31 @@ namespace 个人理财
             this.shuoMing = new DevExpress.XtraEditors.TextEdit();
             this.shouZhiXiangMu = new DevExpress.XtraEditors.LookUpEdit();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
-            this.checkEdit3 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit4 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit5 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit6 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit7 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit8 = new DevExpress.XtraEditors.CheckEdit();
+            this.My = new DevExpress.XtraEditors.CheckEdit();
+            this.Family = new DevExpress.XtraEditors.CheckEdit();
+            this.Relative = new DevExpress.XtraEditors.CheckEdit();
+            this.Friend = new DevExpress.XtraEditors.CheckEdit();
+            this.Classmate = new DevExpress.XtraEditors.CheckEdit();
+            this.Other = new DevExpress.XtraEditors.CheckEdit();
             this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
+            this.jinEr = new DevExpress.XtraEditors.TextEdit();
             this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
-            this.rQ = new DevExpress.XtraEditors.DateEdit();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.beiZhu = new System.Windows.Forms.RichTextBox();
+            this.rQ = new DevExpress.XtraEditors.LookUpEdit();
             ((System.ComponentModel.ISupportInitialize)(this.shouRU.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.zhiCu.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.shouRuLeiBie.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.shuoMing.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.shouZhiXiangMu.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit5.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit7.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit8.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.rQ.Properties.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.My.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Family.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Relative.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Friend.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Classmate.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Other.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.jinEr.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rQ.Properties)).BeginInit();
             this.SuspendLayout();
             // 
@@ -172,53 +171,53 @@ namespace 个人理财
             this.labelControl6.TabIndex = 0;
             this.labelControl6.Text = "收支人：";
             // 
-            // checkEdit3
+            // My
             // 
-            this.checkEdit3.Location = new System.Drawing.Point(373, 145);
-            this.checkEdit3.Name = "checkEdit3";
-            this.checkEdit3.Properties.Caption = "我";
-            this.checkEdit3.Size = new System.Drawing.Size(75, 20);
-            this.checkEdit3.TabIndex = 1;
+            this.My.Location = new System.Drawing.Point(373, 145);
+            this.My.Name = "My";
+            this.My.Properties.Caption = "我";
+            this.My.Size = new System.Drawing.Size(75, 20);
+            this.My.TabIndex = 1;
             // 
-            // checkEdit4
+            // Family
             // 
-            this.checkEdit4.Location = new System.Drawing.Point(428, 145);
-            this.checkEdit4.Name = "checkEdit4";
-            this.checkEdit4.Properties.Caption = "家人";
-            this.checkEdit4.Size = new System.Drawing.Size(75, 20);
-            this.checkEdit4.TabIndex = 1;
+            this.Family.Location = new System.Drawing.Point(428, 145);
+            this.Family.Name = "Family";
+            this.Family.Properties.Caption = "家人";
+            this.Family.Size = new System.Drawing.Size(75, 20);
+            this.Family.TabIndex = 1;
             // 
-            // checkEdit5
+            // Relative
             // 
-            this.checkEdit5.Location = new System.Drawing.Point(482, 145);
-            this.checkEdit5.Name = "checkEdit5";
-            this.checkEdit5.Properties.Caption = "亲戚";
-            this.checkEdit5.Size = new System.Drawing.Size(75, 20);
-            this.checkEdit5.TabIndex = 1;
+            this.Relative.Location = new System.Drawing.Point(482, 145);
+            this.Relative.Name = "Relative";
+            this.Relative.Properties.Caption = "亲戚";
+            this.Relative.Size = new System.Drawing.Size(75, 20);
+            this.Relative.TabIndex = 1;
             // 
-            // checkEdit6
+            // Friend
             // 
-            this.checkEdit6.Location = new System.Drawing.Point(373, 185);
-            this.checkEdit6.Name = "checkEdit6";
-            this.checkEdit6.Properties.Caption = "朋友";
-            this.checkEdit6.Size = new System.Drawing.Size(75, 20);
-            this.checkEdit6.TabIndex = 1;
+            this.Friend.Location = new System.Drawing.Point(373, 185);
+            this.Friend.Name = "Friend";
+            this.Friend.Properties.Caption = "朋友";
+            this.Friend.Size = new System.Drawing.Size(75, 20);
+            this.Friend.TabIndex = 1;
             // 
-            // checkEdit7
+            // Classmate
             // 
-            this.checkEdit7.Location = new System.Drawing.Point(428, 185);
-            this.checkEdit7.Name = "checkEdit7";
-            this.checkEdit7.Properties.Caption = "同学";
-            this.checkEdit7.Size = new System.Drawing.Size(75, 20);
-            this.checkEdit7.TabIndex = 1;
+            this.Classmate.Location = new System.Drawing.Point(428, 185);
+            this.Classmate.Name = "Classmate";
+            this.Classmate.Properties.Caption = "同学";
+            this.Classmate.Size = new System.Drawing.Size(75, 20);
+            this.Classmate.TabIndex = 1;
             // 
-            // checkEdit8
+            // Other
             // 
-            this.checkEdit8.Location = new System.Drawing.Point(482, 185);
-            this.checkEdit8.Name = "checkEdit8";
-            this.checkEdit8.Properties.Caption = "其他";
-            this.checkEdit8.Size = new System.Drawing.Size(75, 20);
-            this.checkEdit8.TabIndex = 1;
+            this.Other.Location = new System.Drawing.Point(482, 185);
+            this.Other.Name = "Other";
+            this.Other.Properties.Caption = "其他";
+            this.Other.Size = new System.Drawing.Size(75, 20);
+            this.Other.TabIndex = 1;
             // 
             // labelControl7
             // 
@@ -230,12 +229,12 @@ namespace 个人理财
             this.labelControl7.TabIndex = 0;
             this.labelControl7.Text = "金额：";
             // 
-            // textEdit2
+            // jinEr
             // 
-            this.textEdit2.Location = new System.Drawing.Point(373, 228);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(133, 20);
-            this.textEdit2.TabIndex = 3;
+            this.jinEr.Location = new System.Drawing.Point(373, 228);
+            this.jinEr.Name = "jinEr";
+            this.jinEr.Size = new System.Drawing.Size(133, 20);
+            this.jinEr.TabIndex = 3;
             // 
             // labelControl8
             // 
@@ -246,18 +245,6 @@ namespace 个人理财
             this.labelControl8.Size = new System.Drawing.Size(51, 17);
             this.labelControl8.TabIndex = 0;
             this.labelControl8.Text = "备注：";
-            // 
-            // rQ
-            // 
-            this.rQ.EditValue = null;
-            this.rQ.Location = new System.Drawing.Point(373, 46);
-            this.rQ.Name = "rQ";
-            this.rQ.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.rQ.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.rQ.Size = new System.Drawing.Size(133, 20);
-            this.rQ.TabIndex = 4;
             // 
             // simpleButton1
             // 
@@ -284,26 +271,36 @@ namespace 个人理财
             this.beiZhu.TabIndex = 7;
             this.beiZhu.Text = "";
             // 
+            // rQ
+            // 
+            this.rQ.Location = new System.Drawing.Point(373, 47);
+            this.rQ.Name = "rQ";
+            this.rQ.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.rQ.Properties.NullText = "";
+            this.rQ.Size = new System.Drawing.Size(133, 20);
+            this.rQ.TabIndex = 8;
+            // 
             // incomeExpenditure
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(622, 512);
+            this.Controls.Add(this.rQ);
             this.Controls.Add(this.beiZhu);
             this.Controls.Add(this.simpleButton2);
             this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.rQ);
-            this.Controls.Add(this.textEdit2);
+            this.Controls.Add(this.jinEr);
             this.Controls.Add(this.shuoMing);
             this.Controls.Add(this.shouZhiXiangMu);
             this.Controls.Add(this.shouRuLeiBie);
-            this.Controls.Add(this.checkEdit8);
-            this.Controls.Add(this.checkEdit5);
-            this.Controls.Add(this.checkEdit7);
-            this.Controls.Add(this.checkEdit4);
+            this.Controls.Add(this.Other);
+            this.Controls.Add(this.Relative);
+            this.Controls.Add(this.Classmate);
+            this.Controls.Add(this.Family);
             this.Controls.Add(this.zhiCu);
-            this.Controls.Add(this.checkEdit6);
-            this.Controls.Add(this.checkEdit3);
+            this.Controls.Add(this.Friend);
+            this.Controls.Add(this.My);
             this.Controls.Add(this.shouRU);
             this.Controls.Add(this.labelControl6);
             this.Controls.Add(this.labelControl8);
@@ -321,14 +318,13 @@ namespace 个人理财
             ((System.ComponentModel.ISupportInitialize)(this.shouRuLeiBie.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.shuoMing.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.shouZhiXiangMu.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit5.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit7.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit8.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.rQ.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.My.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Family.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Relative.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Friend.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Classmate.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Other.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.jinEr.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rQ.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -348,18 +344,18 @@ namespace 个人理财
         private DevExpress.XtraEditors.TextEdit shuoMing;
         private DevExpress.XtraEditors.LookUpEdit shouZhiXiangMu;
         private DevExpress.XtraEditors.LabelControl labelControl6;
-        private DevExpress.XtraEditors.CheckEdit checkEdit3;
-        private DevExpress.XtraEditors.CheckEdit checkEdit4;
-        private DevExpress.XtraEditors.CheckEdit checkEdit5;
-        private DevExpress.XtraEditors.CheckEdit checkEdit6;
-        private DevExpress.XtraEditors.CheckEdit checkEdit7;
-        private DevExpress.XtraEditors.CheckEdit checkEdit8;
+        private DevExpress.XtraEditors.CheckEdit My;
+        private DevExpress.XtraEditors.CheckEdit Family;
+        private DevExpress.XtraEditors.CheckEdit Relative;
+        private DevExpress.XtraEditors.CheckEdit Friend;
+        private DevExpress.XtraEditors.CheckEdit Classmate;
+        private DevExpress.XtraEditors.CheckEdit Other;
         private DevExpress.XtraEditors.LabelControl labelControl7;
-        private DevExpress.XtraEditors.TextEdit textEdit2;
+        private DevExpress.XtraEditors.TextEdit jinEr;
         private DevExpress.XtraEditors.LabelControl labelControl8;
-        private DevExpress.XtraEditors.DateEdit rQ;
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private DevExpress.XtraEditors.SimpleButton simpleButton2;
         private System.Windows.Forms.RichTextBox beiZhu;
+        private DevExpress.XtraEditors.LookUpEdit rQ;
     }
 }
