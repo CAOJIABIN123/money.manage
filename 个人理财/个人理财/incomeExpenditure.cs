@@ -45,11 +45,8 @@ namespace 个人理财
                 shouruleixing = "1";
 
             }
-            string shouruleibie = "";
-            if (shouRuLeiBie.SelectedIndex != -1)
-            { 
-
-                shouruleibie=shouruleibie.SelectedItem
+            DataRow shouruleibie = ((System.Data.DataRowView)shouRuLeiBie.GetSelectedDataRow()).Row;
+            shouruleibie["Name"].ToString();
+            MySqlCommand cmd2 = new MySqlCommand("Select CateId FROM category WHERE CaName= @lb", conn);
         }
-    }
 }

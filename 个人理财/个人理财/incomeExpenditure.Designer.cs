@@ -131,6 +131,7 @@ namespace 个人理财
             this.shouRuLeiBie.Name = "shouRuLeiBie";
             this.shouRuLeiBie.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.shouRuLeiBie.Properties.NullText = "";
             this.shouRuLeiBie.Size = new System.Drawing.Size(115, 20);
             this.shouRuLeiBie.TabIndex = 2;
             // 
@@ -157,6 +158,7 @@ namespace 个人理财
             this.shouZhiXiangMu.Name = "shouZhiXiangMu";
             this.shouZhiXiangMu.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.shouZhiXiangMu.Properties.NullText = "";
             this.shouZhiXiangMu.Size = new System.Drawing.Size(115, 20);
             this.shouZhiXiangMu.TabIndex = 2;
             // 
